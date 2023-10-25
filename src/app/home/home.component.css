@@ -1,0 +1,177 @@
+/*estilizando o corpo da pagina*/
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Estilizando a sessão HEADER da pagina*/
+header{
+    background: black;
+    padding: 20px 0;
+}
+/*Estilizando a sessão NAV (navegação) da pagina*/
+nav{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    margin-right: 30%;
+    
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 1px;
+}
+nav a{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(247, 4, 4);
+    text-decoration: underline;
+}
+/*estilizando as linhas da pagina*/
+ul{
+    list-style: none;
+    margin-bottom: 10px;
+}
+/*estilizando o logotipo*/
+.logo.caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+    
+}
+
+/*Banner*/
+.banner{
+    width: 100%;
+}
+.logo{
+    width: 10%;
+    margin: 0 0 0 420px;
+}
+/*Estilização da área "sobre"*/
+.titulo-principal{
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em; /* dobro da fonte padrão*/
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal{
+    color: #ffffff;
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+    text-align: justify;
+}
+.principal strong{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+.principal em{
+    color: #ffffff;
+    font-style: italic;
+}
+.Hamburguer {
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.map{
+
+    padding: 3em 0;
+    margin-top: -5px;
+    background: linear-gradient(#ffd000,#d1f061);
+
+}
+.mapa-conteudo{
+
+    width: 940px;
+
+    margin: auto;
+
+}
+
+
+
+.map p{
+
+    margin: 0 0 2em;
+
+    text-align: center;
+
+}
+
+#caixa-mapa{
+    text-align: center;
+    padding-top: 200px;
+    margin-top: -5px;
+}
+/*Área Beneficios e video*/
+.beneficios{
+    padding: 3em 0;
+    background: #ffbb00;
+}
+.conteudo-beneficio{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-beneficios{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.img_beneficios{
+    width: 20%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px 0px #000000;
+}
+.img_beneficios:hover{
+    opacity: 0.7;
+
+}
+.itens{
+    line-height: 1.5;
+}
+.itens:before{
+    content: "♣";
+}
+.itens:first-child{
+    font-weight: bold;
+}
+.video{
+    margin-top: 5px;
+    text-align: center;
+    
+}
+nav a:hover{
+    color: #FF0000;
+    text-decoration: underline;  
+}
+footer{
+    text-align: center;
+    background-color: #000000;
+    padding: 40px 0;
+}
+/*banner*/
+.banner{
+    width: 100%;
+}
+/*copyright*/
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+

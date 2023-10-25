@@ -1,0 +1,67 @@
+<body>
+    <header>
+        <!--logotipo-->
+        <div class="logo_caixa">
+           
+            <!--Itens iniciais-->
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="fundocont">
+            <h1 class="contatotitulo">🍔 Contato 🍔</h1>
+            <p style="text-align: right; margin-right: 10px;">
+                <script type="text/javascript">
+                    document.write(dia[data.getDay()] + ", " + data.getDate() + " de " + mes[data.getMonth()] + " de " + data.getFullYear())
+                </script>
+            </p>
+            <h4 class="preencha">Preencha os campos abaixo com a sua dúvida, reclamação ou elogio e nossa equipe
+                responderá o mais breve possível.</h4>
+            <h4 class="preencha2">Nosso horário de funcionamento : terça à domingo das 10h às 21h | <a
+                    class="whatsapp-link" href="https://wa.me/5599111112222" target="_blank"><i
+                        class="fa fa-whatsapp fa-lg"></i></a> (11) 94625-9657 </h4>
+            <form name="frmContato" method="get" action="mailto:test@mail.com" target="_blank">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="nomesobrenome">* Nome e sobrenome</label>
+                    <input type="text" id="email" name="" class="input-padrao" required>
+
+                    <label for="email">* Email</label>
+                    <input type="email" id="telefone" name="" class="input-padrao" required
+                        placeholder="seuemail@dominio.com">
+
+                    <label for="telefone">* Telefone</label>
+                    <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
+
+                    <label for="mensagem">* Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+                    <label for="contato">Como prefere o nosso contato?
+                        <input type="radio" value="radio-email" name="Contato">Email
+                        <input type="radio" value="radio-telefone" name="Contato">Telefone
+                        <input type="radio" value="radio-whatsapp" name="Contato">Whatsapp
+                    </label>
+
+                    <br>
+                    <label for="horario">Qual o motivo do seu contato?
+                        <select>
+                            <option>Selecione</option>
+                            <option>Dúvida</option>
+                            <option>Elogio</option>
+                            <option>Sugestão</option>
+                            <option>Reclamação</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <label><input type="checkbox" class="chk"> Gostaria de receber nossas novidades?</label>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+
+            </form>
+        </section>
+
+    </main>
+</body>

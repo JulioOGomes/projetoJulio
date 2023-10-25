@@ -1,0 +1,20 @@
+<section class="superlista">
+    <h2>lista</h2>
+
+        <label>Adicione um novo item na lista: <input #newItem /></label>
+        <!-- nome para pegar no TS, importando como um filho (com o viewchild)-->
+        <br />
+    <button (click)="addNewItem(newItem.value)">Add item na lista</button>
+
+        <button (click)="addNewOutroItem()">Add outro item na lista</button>
+        <button (click)="remove()">Limpar</button>
+        <!--a ação do botão precisa ser enviada para o TS, ou seja, a função addNeItem() será chamada para adicionar o valor do newItem, o parâmetro passado na função -->
+
+    <ul>
+        <li *ngFor="let elemento of items">{{ elemento }}</li>
+        <!-- ngFor é um foreach no front que percorre a lista items, pegando o item do parâmetro -->
+        </ul>
+
+    <button (click)="removeItens()">Limpa lista 1</button>
+
+</section>
